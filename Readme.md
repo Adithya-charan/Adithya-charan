@@ -110,7 +110,7 @@ Copy
 | 🥇 **Best Design Award** | Square Hacks — Finals @ IIT Delhi | Ashoka × The Tale of Humankind |
 | 🥇 **Winner** | NASA Space Hackathon 2025 | VIT-AP University |
 | 🥇 **Winner** | Rewind & Recode Hackathon | VIT-AP (conducted by IIT Bhubaneswar) |
-| 🥈 **4th Prize** | National D³ Rewind & Recode | IIIT Bhubaneswar |
+| 🥈 **4th Prize** | National D³ Rewind & Recode | IIT Bhubaneswar |
 | 🥈 **2nd Place** | Code Fusion 2026 | VR Siddhartha College, Kanuru |
 
 
