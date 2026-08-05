@@ -107,7 +107,8 @@ Copy
 
 | Award | Event | Organiser |
 |---|---|---|
-| 🥇 **Best Design Award** | Square Hacks — Finals @ IIT Delhi | Ashoka × The Tale of Humankind |
+| 🥇 **Winner** | Square Hacks — Finals @ IISC Benguluru |Sys ml workshop2.0 Federated learning |
+| 🥇 **Winner** | Square Hacks — Finals @ IIT Delhi | Ashoka × The Tale of Humankind |
 | 🥇 **Winner** | NASA Space Hackathon 2025 | VIT-AP University |
 | 🥇 **Winner** | Rewind & Recode Hackathon | VIT-AP (conducted by IIT Bhubaneswar) |
 | 🥈 **4th Prize** | National D³ Rewind & Recode | IIT Bhubaneswar |
