@@ -18,7 +18,7 @@ Copy
 - 🌱 I'm currently learning **Advanced LLM Fine-tuning, RAG Pipelines, and System Design at Scale**
 - 💬 Ask me about: **Full Stack Development, AI/ML Integration, Prompt Engineering, OpenAI API, React, Node.js**
 - 🎯 Goal: **To build impactful AI-powered products that solve real-world problems at scale**
-- ⚡ Fun fact: **I have won 6 hackathons including at IIT Delhi & NASA Space Hackathon — and my best prototype almost didn't survive mid-evaluation! 😄**
+- ⚡ Fun fact: **I have won 7 hackathons including at IIT Delhi & NASA Space Hackathon — and my best prototype almost didn't survive mid-evaluation! 😄**
 
 ---
 
