@@ -5,14 +5,14 @@
 <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1A2340" stroke-width="1"/></pattern>
 <radialGradient id="glowA" cx="0.15" cy="0.05" r="0.7"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.16"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
 <radialGradient id="glowB" cx="0.8" cy="0.45" r="0.5"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.22"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
-<radialGradient id="core" cx="0.4" cy="0.35" r="0.75"><stop offset="0" stop-color="#1E3A5F" stop-opacity="0.95"/><stop offset="0.6" stop-color="#111a33" stop-opacity="0.9"/><stop offset="1" stop-color="#0B1020" stop-opacity="0.9"/></radialGradient>
+<radialGradient id="core" cx="0.4" cy="0.35" r="0.75"><stop offset="0" stop-color="#1E3A5F" stop-opacity="0.95"/><stop offset="0.6" stop-color="#111a33" stop-opacity="0.9"/><stop offset="1" stop-color="#0D1117" stop-opacity="0.9"/></radialGradient>
 <linearGradient id="accent" x1="0" x2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
 <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.35" stop-color="#fff" stop-opacity="0.55"/><stop offset="1" stop-color="#fff" stop-opacity="1"/></linearGradient>
 <filter id="soft" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <linearGradient id="top0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.55"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0.12"/></linearGradient><linearGradient id="top1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38BDF8" stop-opacity="0.55"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0.12"/></linearGradient><linearGradient id="top2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#818CF8" stop-opacity="0.55"/><stop offset="1" stop-color="#818CF8" stop-opacity="0.12"/></linearGradient><linearGradient id="top3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.55"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0.12"/></linearGradient><linearGradient id="top4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A78BFA" stop-opacity="0.55"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0.12"/></linearGradient>
-<clipPath id="clip"><rect width="1200" height="360" rx="18"/></clipPath></defs>
+<clipPath id="clip"><rect width="1200" height="360"/></clipPath></defs>
 <g clip-path="url(#clip)">
-<rect width="1200" height="360" fill="#0B1020"/>
+<rect width="1200" height="360" fill="#0D1117"/>
 
 <rect width="1200" height="360" fill="url(#grid)" opacity="0.3"/>
 <rect width="1200" height="360" fill="url(#glowA)"/>
@@ -22,5 +22,4 @@
 <circle r="6" fill="#E0F2FE" filter="url(#soft)"><animateMotion path="M150 206 L375 206 L600 206 L825 206 L1050 206" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" dur="6s" repeatCount="indefinite"/></circle>
 
 </g>
-<rect x="0.5" y="0.5" width="1199" height="359" rx="18" stroke="#1E2A4A"/>
 </svg>

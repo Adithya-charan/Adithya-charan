@@ -5,14 +5,14 @@
 <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1A2340" stroke-width="1"/></pattern>
 <radialGradient id="glowA" cx="0.15" cy="0.05" r="0.7"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.16"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
 <radialGradient id="glowB" cx="0.8" cy="0.45" r="0.5"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0.22"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
-<radialGradient id="core" cx="0.4" cy="0.35" r="0.75"><stop offset="0" stop-color="#1E3A5F" stop-opacity="0.95"/><stop offset="0.6" stop-color="#111a33" stop-opacity="0.9"/><stop offset="1" stop-color="#0B1020" stop-opacity="0.9"/></radialGradient>
+<radialGradient id="core" cx="0.4" cy="0.35" r="0.75"><stop offset="0" stop-color="#1E3A5F" stop-opacity="0.95"/><stop offset="0.6" stop-color="#111a33" stop-opacity="0.9"/><stop offset="1" stop-color="#0D1117" stop-opacity="0.9"/></radialGradient>
 <linearGradient id="accent" x1="0" x2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
 <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.35" stop-color="#fff" stop-opacity="0.55"/><stop offset="1" stop-color="#fff" stop-opacity="1"/></linearGradient>
 <filter id="soft" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <mask id="fm"><rect x="0" y="70" width="1200" height="100" fill="url(#fade)"/></mask>
-<clipPath id="clip"><rect width="1200" height="170" rx="18"/></clipPath></defs>
+<clipPath id="clip"><rect width="1200" height="170"/></clipPath></defs>
 <g clip-path="url(#clip)">
-<rect width="1200" height="170" fill="#0B1020"/>
+<rect width="1200" height="170" fill="#0D1117"/>
 
 <g mask="url(#fm)" stroke="#22D3EE" stroke-opacity="0.5">
 <line x1="600" y1="70" x2="-1200" y2="170"/>
@@ -70,5 +70,4 @@
 </text>
 
 </g>
-<rect x="0.5" y="0.5" width="1199" height="169" rx="18" stroke="#1E2A4A"/>
 </svg>
