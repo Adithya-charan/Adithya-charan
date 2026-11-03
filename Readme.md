@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Adithya-charan/Adithya-charan/main/assets/hero.svg" alt="Adithya Charan Yaramalla, AI Engineer and Full-Stack Developer. I build AI that does real work, and the full stack that ships it." width="100%" />
+<img src="https://raw.githubusercontent.com/Adithya-charan/Adithya-charan/main/assets/hero-wormhole.svg" alt="Adithya Charan Yaramalla in 3D chrome letters in front of a glowing tunnel. I build AI that does real work, and the full stack that ships it." width="100%" />
 
-<br/>
-
-<a href="https://adithyacharanin.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0B1020?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/adithya-charan-6b7bb138b/"><img src="https://img.shields.io/badge/LinkedIn-0B1020?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn" /></a>
-<a href="mailto:adityayaramalla@gmail.com"><img src="https://img.shields.io/badge/Email-0B1020?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" /></a>
-<a href="https://adithyacharanin.vercel.app/assets/resume/Adithya_Charan_Resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-0B1020?style=for-the-badge&logo=readdotcv&logoColor=22D3EE" alt="Résumé (PDF)" /></a>
-<a href="https://unstop.com/u/yadi80725"><img src="https://img.shields.io/badge/Unstop-0B1020?style=for-the-badge&logo=target&logoColor=22D3EE" alt="Unstop" /></a>
+<a href="https://adithyacharanin.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/adithya-charan-6b7bb138b/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn" /></a>
+<a href="mailto:adityayaramalla@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" /></a>
+<a href="https://adithyacharanin.vercel.app/assets/resume/Adithya_Charan_Resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-0D1117?style=for-the-badge&logo=readdotcv&logoColor=22D3EE" alt="Résumé (PDF)" /></a>
+<a href="https://unstop.com/u/yadi80725"><img src="https://img.shields.io/badge/Unstop-0D1117?style=for-the-badge&logo=target&logoColor=22D3EE" alt="Unstop" /></a>
 
 </div>
 
@@ -16,15 +14,15 @@
 
 ### `00` &nbsp;Signal
 
-I'm a third-year B.Tech student in Artificial Intelligence & Data Science at KL University. Most of my time goes into LLM agents, retrieval, voice interfaces and computer vision, and into the backend and frontend work it takes to turn a model into something people can use.
+I'm Adithya, a third-year B.Tech student in Artificial Intelligence & Data Science at KL University, and I build AI products end to end. Most of my work sits where models meet real users: LLM agents, retrieval, voice interfaces in Indian languages, and computer vision, plus the FastAPI, React and Android code that turns them into something people can actually use.
 
-I care about the boring half of AI products: input validation, deterministic rules around model output, audit trails, and tests. Many of my weekends are hackathons, which is where a lot of these projects started.
+What I care about most is the part demos skip: validating inputs, putting deterministic rules around model output, keeping an audit trail, and writing the tests. Hackathons are where many of these projects started, and seven of them ended on the podium.
 
 <br/>
 
 ### `01` &nbsp;The pattern I keep building
 
-Across my projects the model is rarely the final authority. It observes or proposes, and a layer I can test decides what actually happens.
+In my projects the model is rarely the final authority. It observes or proposes, and a layer I can test decides what actually happens.
 
 <img src="https://raw.githubusercontent.com/Adithya-charan/Adithya-charan/main/assets/pattern.svg" alt="Five floating 3D blocks labelled observe, reason, guard, act and verify, with a pulse travelling across them." width="100%" />
 
@@ -39,8 +37,8 @@ Across my projects the model is rarely the final authority. It observes or propo
 <tr>
 <td valign="top"><sub>→ a deterministic rules engine decides the disposition</sub></td>
 <td valign="top"><sub>→ the laptop agent runs only allowlisted actions</sub></td>
-<td valign="top"><sub>→ policy authorizes before anything executes</sub></td>
-<td valign="top"><sub>→ backend-enforced role policies, fully audited</sub></td>
+<td valign="top"><sub>→ a policy layer authorizes before anything executes</sub></td>
+<td valign="top"><sub>→ role policies enforced in the backend, every decision audited</sub></td>
 <td valign="top"><sub>→ verification checks whether the fix stayed fixed</sub></td>
 </tr>
 </table>
@@ -49,14 +47,16 @@ Across my projects the model is rarely the final authority. It observes or propo
 
 ### `02` &nbsp;Selected builds
 
+<img src="https://raw.githubusercontent.com/Adithya-charan/Adithya-charan/main/assets/project-city.svg" alt="An isometric 3D night city where each building is one of my projects: RecoverAI, Vaani, RESOLVE, TrustLayer, CUBE and Memora." width="100%" />
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
 #### [RESOLVE](https://github.com/Adithya-charan/ResolveAi)
-**Incident response that remembers.** Links each new incident to past root causes, failed and successful fixes, and whether the remediation held.
+**Incident response that remembers.** When a new incident lands, RESOLVE pulls up similar past incidents with their root causes, the fixes that failed, the fix that worked, and whether it held.
 
-Uses Hindsight agent memory for recall and keeps structured incident history in PostgreSQL, with an LLM reasoning over both.
+Hindsight agent memory handles recall, PostgreSQL keeps the structured history, and an LLM reasons over both.
 
 `Next.js` `TypeScript` `FastAPI` `PostgreSQL (Neon)` `Hindsight` `Groq`
 
@@ -64,9 +64,9 @@ Uses Hindsight agent memory for recall and keeps structured incident history in 
 <td width="50%" valign="top">
 
 #### [CUBE Returns Manager](https://github.com/Adithya-charan/cube-04-returns-manager)
-**Inspecting returned products with evidence.** Checks identity, completeness and condition from photos, then decides restock, refurbish or review.
+**Inspecting returned products with evidence.** From photos of a return, it checks identity, completeness and condition, then decides restock, refurbish, liquidate or human review.
 
-Qwen3-VL only reports observations. A tested Python rules engine makes the call and sends uncertain cases to a human.
+Qwen3-VL only reports what it sees. A tested Python rules engine makes the call, and anything uncertain goes to a person.
 
 `YOLOv8` `Qwen3-VL (Ollama)` `FastAPI` `React` `SQLite` `pytest`
 
@@ -76,9 +76,9 @@ Qwen3-VL only reports observations. A tested Python rules engine makes the call 
 <td width="50%" valign="top">
 
 #### [Vaani](https://github.com/Adithya-charan/Vaani)
-**A voice-first remote operator for a Windows laptop.** Speak or type on an Android phone in English, Hindi, Telugu or a mix, and the laptop carries it out.
+**Control your laptop by talking to your phone.** Speak or type a command on Android in English, Hindi, Telugu or a mix, and a Windows laptop carries it out and answers back.
 
-The AI proposes a plan, and the agent executes only a short allowlist of actions over a private Tailscale link.
+The AI proposes a plan, but the laptop agent runs only a short allowlist of actions, over a private Tailscale link.
 
 `Kotlin` `Jetpack Compose` `Python` `FastAPI` `Groq` `Sarvam AI`
 
@@ -86,9 +86,9 @@ The AI proposes a plan, and the agent executes only a short allowlist of actions
 <td width="50%" valign="top">
 
 #### [Memora](https://github.com/Adithya-charan/memora)
-**Ask your own photos and documents questions.** Finds the warranty card, the invoice, the screenshot, and cites the source files for every answer.
+**Ask questions about your own photos and documents.** Find the warranty card, the invoice or that one screenshot, with every answer pointing back to its source files.
 
-Fully local: Gemma models through Ollama, hybrid embedding and FTS5 keyword search in SQLite, with a native Android client over Wi-Fi.
+Fully local: Gemma models through Ollama, hybrid embedding and FTS5 keyword search in SQLite, and a native Android app over Wi-Fi.
 
 `Python` `FastAPI` `Ollama` `SQLite FTS5` `Kotlin` `Jetpack Compose`
 
@@ -98,9 +98,9 @@ Fully local: Gemma models through Ollama, hybrid embedding and FTS5 keyword sear
 <td width="50%" valign="top">
 
 #### [TrustLayer](https://github.com/Adithya-charan/Trustlayer)
-**Role-aware data masking for banking and finance.** Discovers sensitive columns and returns each requester only what their role needs.
+**Showing each person only the data their role needs.** Built for banking and finance: it finds sensitive columns and masks query results by role without changing the stored data.
 
-Hybrid rule + ML PII detection, backend-enforced policies, an audit trail of every decision, and a multilingual voice assistant over that trail.
+Rule + ML PII detection, policies enforced in the backend, an audit trail of every decision, and a multilingual voice assistant that answers from that trail.
 
 `FastAPI` `SQLAlchemy` `PostgreSQL` `React` `LiveKit` `n8n`
 
@@ -108,9 +108,9 @@ Hybrid rule + ML PII detection, backend-enforced policies, an audit trail of eve
 <td width="50%" valign="top">
 
 #### [RecoverAI](https://github.com/Adithya-charan/Recover-Ai)
-**Winning back revenue that's slipping away.** Detects failed payments, abandoned checkouts and overdue receivables, then plans a recovery.
+**Winning back revenue that's slipping away.** Spots failed payments, abandoned checkouts and overdue receivables, then plans how to recover each one.
 
-ML predicts recovery probability, a LoRA fine-tuned Qwen2.5 recommends the action, and a policy layer authorizes it before execution.
+An ML model predicts the chance of recovery, a LoRA fine-tuned Qwen2.5 recommends the action, and a policy layer approves it before anything runs.
 
 `Python` `FastAPI` `scikit-learn` `Transformers + PEFT` `Razorpay` `React`
 
@@ -121,7 +121,7 @@ ML predicts recovery probability, a LoRA fine-tuned Qwen2.5 recommends the actio
 <sub><b>Also built:</b>
 <a href="https://github.com/Adithya-charan/janavani">JanaVani</a> (multilingual civic issue reporting) ·
 <a href="https://github.com/Adithya-charan/SupportIQ">SupportIQ</a> (autonomous customer support with voice) ·
-<a href="https://github.com/Adithya-charan/shopsahayak">ShopSahayak</a> (talk to your shop's data) ·
+<a href="https://github.com/Adithya-charan/shopsahayak">ShopSahayak</a> (ask your shop's data by voice) ·
 <a href="https://github.com/Adithya-charan/SwasthyaSetu">SwasthyaSetu</a> (multilingual telemedicine) ·
 <a href="https://github.com/Adithya-charan/Chiefos">ChiefOS</a> (AI chief of staff) ·
 <a href="https://github.com/Adithya-charan/VyaparSetu">Vyapara Setu</a> (business formalization for entrepreneurs)
@@ -131,81 +131,81 @@ ML predicts recovery probability, a LoRA fine-tuned Qwen2.5 recommends the actio
 
 ### `03` &nbsp;Stack
 
-<img src="https://raw.githubusercontent.com/Adithya-charan/Adithya-charan/main/assets/stack.svg" alt="Technologies orbiting a glowing core: Python, TypeScript, Kotlin, FastAPI, React, Next.js, PostgreSQL, Ollama, LiveKit, PyTorch, YOLOv8 and Gemini." width="100%" />
+<img src="https://raw.githubusercontent.com/Adithya-charan/Adithya-charan/main/assets/ai-core.svg" alt="A glowing 3D crystal rotating at the centre, circled by my tools: Python, FastAPI, React, Next.js, Ollama, LiveKit, PyTorch, YOLOv8, Postgres, Kotlin, Gemini and TypeScript." width="100%" />
 
 <table>
 <tr>
 <td width="22%"><b>Languages</b></td>
 <td>
-<img src="https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=22D3EE" alt="Python" />
-<img src="https://img.shields.io/badge/TypeScript-0B1020?style=flat-square&logo=typescript&logoColor=22D3EE" alt="TypeScript" />
-<img src="https://img.shields.io/badge/JavaScript-0B1020?style=flat-square&logo=javascript&logoColor=22D3EE" alt="JavaScript" />
-<img src="https://img.shields.io/badge/Java-0B1020?style=flat-square&logo=openjdk&logoColor=22D3EE" alt="Java" />
-<img src="https://img.shields.io/badge/Kotlin-0B1020?style=flat-square&logo=kotlin&logoColor=22D3EE" alt="Kotlin" />
-<img src="https://img.shields.io/badge/SQL-0B1020?style=flat-square&logo=postgresql&logoColor=22D3EE" alt="SQL" />
+<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=22D3EE" alt="Python" />
+<img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=22D3EE" alt="TypeScript" />
+<img src="https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=22D3EE" alt="JavaScript" />
+<img src="https://img.shields.io/badge/Java-0D1117?style=flat-square&logo=openjdk&logoColor=22D3EE" alt="Java" />
+<img src="https://img.shields.io/badge/Kotlin-0D1117?style=flat-square&logo=kotlin&logoColor=22D3EE" alt="Kotlin" />
+<img src="https://img.shields.io/badge/SQL-0D1117?style=flat-square&logo=postgresql&logoColor=22D3EE" alt="SQL" />
 </td>
 </tr>
 <tr>
 <td><b>AI & ML</b></td>
 <td>
-<img src="https://img.shields.io/badge/PyTorch-0B1020?style=flat-square&logo=pytorch&logoColor=22D3EE" alt="PyTorch" />
-<img src="https://img.shields.io/badge/scikit--learn-0B1020?style=flat-square&logo=scikitlearn&logoColor=22D3EE" alt="scikit-learn" />
-<img src="https://img.shields.io/badge/XGBoost-0B1020?style=flat-square" alt="XGBoost" />
-<img src="https://img.shields.io/badge/YOLOv8-0B1020?style=flat-square&logo=ultralytics&logoColor=22D3EE" alt="YOLOv8" />
-<img src="https://img.shields.io/badge/Hugging%20Face-0B1020?style=flat-square&logo=huggingface&logoColor=22D3EE" alt="Hugging Face" />
-<img src="https://img.shields.io/badge/Ollama-0B1020?style=flat-square&logo=ollama&logoColor=22D3EE" alt="Ollama" />
+<img src="https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=22D3EE" alt="PyTorch" />
+<img src="https://img.shields.io/badge/scikit--learn-0D1117?style=flat-square&logo=scikitlearn&logoColor=22D3EE" alt="scikit-learn" />
+<img src="https://img.shields.io/badge/XGBoost-0D1117?style=flat-square" alt="XGBoost" />
+<img src="https://img.shields.io/badge/YOLOv8-0D1117?style=flat-square&logo=ultralytics&logoColor=22D3EE" alt="YOLOv8" />
+<img src="https://img.shields.io/badge/Hugging%20Face-0D1117?style=flat-square&logo=huggingface&logoColor=22D3EE" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/Ollama-0D1117?style=flat-square&logo=ollama&logoColor=22D3EE" alt="Ollama" />
 </td>
 </tr>
 <tr>
 <td><b>LLMs & Voice</b></td>
 <td>
-<img src="https://img.shields.io/badge/Gemini-0B1020?style=flat-square&logo=googlegemini&logoColor=22D3EE" alt="Gemini" />
-<img src="https://img.shields.io/badge/Groq-0B1020?style=flat-square" alt="Groq" />
-<img src="https://img.shields.io/badge/Qwen-0B1020?style=flat-square" alt="Qwen" />
-<img src="https://img.shields.io/badge/LiveKit-0B1020?style=flat-square&logo=webrtc&logoColor=22D3EE" alt="LiveKit" />
-<img src="https://img.shields.io/badge/Sarvam%20AI-0B1020?style=flat-square" alt="Sarvam AI" />
+<img src="https://img.shields.io/badge/Gemini-0D1117?style=flat-square&logo=googlegemini&logoColor=22D3EE" alt="Gemini" />
+<img src="https://img.shields.io/badge/Groq-0D1117?style=flat-square" alt="Groq" />
+<img src="https://img.shields.io/badge/Qwen-0D1117?style=flat-square" alt="Qwen" />
+<img src="https://img.shields.io/badge/LiveKit-0D1117?style=flat-square&logo=webrtc&logoColor=22D3EE" alt="LiveKit" />
+<img src="https://img.shields.io/badge/Sarvam%20AI-0D1117?style=flat-square" alt="Sarvam AI" />
 </td>
 </tr>
 <tr>
 <td><b>Backend</b></td>
 <td>
-<img src="https://img.shields.io/badge/FastAPI-0B1020?style=flat-square&logo=fastapi&logoColor=22D3EE" alt="FastAPI" />
-<img src="https://img.shields.io/badge/Pydantic-0B1020?style=flat-square&logo=pydantic&logoColor=22D3EE" alt="Pydantic" />
-<img src="https://img.shields.io/badge/SQLAlchemy-0B1020?style=flat-square&logo=sqlalchemy&logoColor=22D3EE" alt="SQLAlchemy" />
-<img src="https://img.shields.io/badge/Node.js-0B1020?style=flat-square&logo=nodedotjs&logoColor=22D3EE" alt="Node.js" />
-<img src="https://img.shields.io/badge/Express-0B1020?style=flat-square&logo=express&logoColor=22D3EE" alt="Express" />
-<img src="https://img.shields.io/badge/Spring%20Boot-0B1020?style=flat-square&logo=springboot&logoColor=22D3EE" alt="Spring Boot" />
+<img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=22D3EE" alt="FastAPI" />
+<img src="https://img.shields.io/badge/Pydantic-0D1117?style=flat-square&logo=pydantic&logoColor=22D3EE" alt="Pydantic" />
+<img src="https://img.shields.io/badge/SQLAlchemy-0D1117?style=flat-square&logo=sqlalchemy&logoColor=22D3EE" alt="SQLAlchemy" />
+<img src="https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=nodedotjs&logoColor=22D3EE" alt="Node.js" />
+<img src="https://img.shields.io/badge/Express-0D1117?style=flat-square&logo=express&logoColor=22D3EE" alt="Express" />
+<img src="https://img.shields.io/badge/Spring%20Boot-0D1117?style=flat-square&logo=springboot&logoColor=22D3EE" alt="Spring Boot" />
 </td>
 </tr>
 <tr>
 <td><b>Frontend & Mobile</b></td>
 <td>
-<img src="https://img.shields.io/badge/React-0B1020?style=flat-square&logo=react&logoColor=22D3EE" alt="React" />
-<img src="https://img.shields.io/badge/Next.js-0B1020?style=flat-square&logo=nextdotjs&logoColor=22D3EE" alt="Next.js" />
-<img src="https://img.shields.io/badge/Vite-0B1020?style=flat-square&logo=vite&logoColor=22D3EE" alt="Vite" />
-<img src="https://img.shields.io/badge/Tailwind%20CSS-0B1020?style=flat-square&logo=tailwindcss&logoColor=22D3EE" alt="Tailwind CSS" />
-<img src="https://img.shields.io/badge/Jetpack%20Compose-0B1020?style=flat-square&logo=jetpackcompose&logoColor=22D3EE" alt="Jetpack Compose" />
+<img src="https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=22D3EE" alt="React" />
+<img src="https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=nextdotjs&logoColor=22D3EE" alt="Next.js" />
+<img src="https://img.shields.io/badge/Vite-0D1117?style=flat-square&logo=vite&logoColor=22D3EE" alt="Vite" />
+<img src="https://img.shields.io/badge/Tailwind%20CSS-0D1117?style=flat-square&logo=tailwindcss&logoColor=22D3EE" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/Jetpack%20Compose-0D1117?style=flat-square&logo=jetpackcompose&logoColor=22D3EE" alt="Jetpack Compose" />
 </td>
 </tr>
 <tr>
 <td><b>Data</b></td>
 <td>
-<img src="https://img.shields.io/badge/PostgreSQL-0B1020?style=flat-square&logo=postgresql&logoColor=22D3EE" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/SQLite-0B1020?style=flat-square&logo=sqlite&logoColor=22D3EE" alt="SQLite" />
-<img src="https://img.shields.io/badge/MySQL-0B1020?style=flat-square&logo=mysql&logoColor=22D3EE" alt="MySQL" />
-<img src="https://img.shields.io/badge/MongoDB-0B1020?style=flat-square&logo=mongodb&logoColor=22D3EE" alt="MongoDB" />
-<img src="https://img.shields.io/badge/Firebase-0B1020?style=flat-square&logo=firebase&logoColor=22D3EE" alt="Firebase" />
+<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=22D3EE" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/SQLite-0D1117?style=flat-square&logo=sqlite&logoColor=22D3EE" alt="SQLite" />
+<img src="https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=22D3EE" alt="MySQL" />
+<img src="https://img.shields.io/badge/MongoDB-0D1117?style=flat-square&logo=mongodb&logoColor=22D3EE" alt="MongoDB" />
+<img src="https://img.shields.io/badge/Firebase-0D1117?style=flat-square&logo=firebase&logoColor=22D3EE" alt="Firebase" />
 </td>
 </tr>
 <tr>
 <td><b>Tooling & Deploy</b></td>
 <td>
-<img src="https://img.shields.io/badge/Git-0B1020?style=flat-square&logo=git&logoColor=22D3EE" alt="Git" />
-<img src="https://img.shields.io/badge/Docker-0B1020?style=flat-square&logo=docker&logoColor=22D3EE" alt="Docker" />
-<img src="https://img.shields.io/badge/pytest-0B1020?style=flat-square&logo=pytest&logoColor=22D3EE" alt="pytest" />
-<img src="https://img.shields.io/badge/n8n-0B1020?style=flat-square&logo=n8n&logoColor=22D3EE" alt="n8n" />
-<img src="https://img.shields.io/badge/Vercel-0B1020?style=flat-square&logo=vercel&logoColor=22D3EE" alt="Vercel" />
-<img src="https://img.shields.io/badge/Render-0B1020?style=flat-square&logo=render&logoColor=22D3EE" alt="Render" />
+<img src="https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=22D3EE" alt="Git" />
+<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=22D3EE" alt="Docker" />
+<img src="https://img.shields.io/badge/pytest-0D1117?style=flat-square&logo=pytest&logoColor=22D3EE" alt="pytest" />
+<img src="https://img.shields.io/badge/n8n-0D1117?style=flat-square&logo=n8n&logoColor=22D3EE" alt="n8n" />
+<img src="https://img.shields.io/badge/Vercel-0D1117?style=flat-square&logo=vercel&logoColor=22D3EE" alt="Vercel" />
+<img src="https://img.shields.io/badge/Render-0D1117?style=flat-square&logo=render&logoColor=22D3EE" alt="Render" />
 </td>
 </tr>
 </table>
@@ -213,6 +213,8 @@ ML predicts recovery probability, a LoRA fine-tuned Qwen2.5 recommends the actio
 <br/>
 
 ### `04` &nbsp;On the podium
+
+Seven hackathons and fests, seven podium finishes, from IIT Delhi to IISc Bengaluru.
 
 <table>
 <tr><th align="left">Event</th><th align="left">Result</th><th align="left">Where · When</th></tr>
@@ -249,16 +251,18 @@ ML predicts recovery probability, a LoRA fine-tuned Qwen2.5 recommends the actio
 
 ### `07` &nbsp;Current direction
 
+<img src="https://raw.githubusercontent.com/Adithya-charan/Adithya-charan/main/assets/voice-equalizer.svg" alt="An isometric 3D audio equalizer rippling outward like speech, labelled English, Hindi and Telugu." width="100%" />
+
+- **Voice AI in Indian languages:** speech interfaces that work in Telugu, Hindi and English, so people can use software in the language they think in
 - **Agents with guardrails:** LLM planners paired with deterministic checks, policies and audit trails
 - **Retrieval and memory:** grounded answers that cite their sources, and systems that learn from past outcomes
-- **Voice in Indian languages:** speech interfaces that work in Telugu, Hindi and English
 - **Local-first models:** running open models on my own hardware with Ollama, so private data stays private
 
 <br/>
 
 ### `08` &nbsp;Connect
 
-Open to AI engineering roles, internships and research collaborations.
+Open to AI engineering roles, internships and research collaborations. Email is the fastest way to reach me.
 
 [Portfolio](https://adithyacharanin.vercel.app/) &nbsp;·&nbsp;
 [LinkedIn](https://www.linkedin.com/in/adithya-charan-6b7bb138b/) &nbsp;·&nbsp;
